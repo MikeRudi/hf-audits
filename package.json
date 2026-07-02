@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build:app-data": "node scripts/build_audit_app_data.js",
+    "dev": "vercel dev",
+    "start:app": "node app/server.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1"
+  }
+}

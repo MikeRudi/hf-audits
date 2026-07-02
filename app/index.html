@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Huck Finch Audits</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app" class="app-shell">
+      <nav class="tabs" aria-label="App views">
+        <button class="tab is-active" data-view="frames" type="button">Audit Frames</button>
+        <button class="tab" data-view="library" type="button">Template Library</button>
+        <button class="tab" data-view="builder" type="button">Build New Audit</button>
+      </nav>
+
+      <aside class="sidebar" aria-label="Audit list">
+        <div class="brand-block">
+          <div class="brand-mark" data-fallback="HF">
+            <img src="/audits/huckfinchlgo.png" alt="" onerror="this.hidden=true" />
+          </div>
+          <div>
+            <h1>Huck Finch Audits</h1>
+          </div>
+        </div>
+
+        <label class="search-box">
+          <span id="auditCountLabel">Search the audits</span>
+          <input id="auditSearch" type="search" placeholder="Company, contact, website" />
+        </label>
+
+        <div id="auditList" class="audit-list"></div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Huck Finch audit system</p>
+            <h2 id="pageTitle">Audit Frames</h2>
+          </div>
+          <div class="toolbar">
+            <button id="copyAuditBtn" class="button secondary" type="button">Copy current audit</button>
+            <button id="editAuditBtn" class="button secondary" type="button">Edit audit</button>
+            <button id="seedBuilderBtn" class="button secondary" type="button">Use as builder base</button>
+            <button id="exportPdfBtn" class="button secondary" type="button">Export PDF</button>
+            <button id="resetBuilderBtn" class="button secondary" type="button">Reset builder</button>
+            <button id="exportBuilderBtn" class="button primary" type="button">Save audit</button>
+          </div>
+        </header>
+
+        <section id="framesView" class="view is-active"></section>
+        <section id="libraryView" class="view"></section>
+        <section id="builderView" class="view"></section>
+      </main>
+    </div>
+
+    <template id="emptyStateTemplate">
+      <div class="empty-state">
+        <h3>No matching audits</h3>
+        <p>Try a different search term.</p>
+      </div>
+    </template>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

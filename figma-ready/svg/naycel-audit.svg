@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="4149" viewBox="0 0 1280 4149">
+<rect width="1280" height="4149" fill="#ffffff"/>
+<rect x="36" y="36" width="1208" height="4077" rx="0" fill="#ffffff" stroke="#e5e7eb"/>
+<title>Naycel Website Audit</title>
+<text x="72" y="72" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Naycel Website Audit</text>
+<text x="72" y="126" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">Website: https://www.naycel.com/</text>
+<text x="72" y="152" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">Company: Naycel</text>
+<text x="72" y="178" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">Contact: Neel Patel</text>
+<text x="72" y="204" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">Email: npatel@naycel.com</text>
+<text x="72" y="230" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">Audit Date: June 23, 2026</text>
+<text x="72" y="256" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">Audited By: Codex</text>
+<text x="72" y="312" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Audit Summary</text>
+<text x="72" y="357" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Naycel's website was reviewed from a public-facing perspective.</text>
+<text x="72" y="403" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main opportunities:</text>
+<text x="72" y="441" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">1. Improve speed and reduce what loads before the first view</text>
+<text x="72" y="467" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">2. Clean up code and third-party scripts that are not needed right away</text>
+<text x="72" y="493" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#374151">3. Optimise images and other visual assets</text>
+<text x="72" y="549" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Messaging Direction</text>
+<text x="72" y="594" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Recommended messaging model: Platform-Led</text>
+<text x="72" y="640" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Messaging Notes:</text>
+<text x="72" y="678" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Based on the public page text and navigation, Naycel appears to include multiple audiences,</text>
+<text x="72" y="700" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">services, features, or use cases. The website should group those pieces into a clearer complete</text>
+<text x="72" y="722" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">solution with direct next steps.</text>
+<text x="72" y="778" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Performance</text>
+<text x="72" y="833" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Speed Test Scores</text>
+<text x="72" y="871" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Performance: 98</text>
+<text x="72" y="897" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Accessibility: 100</text>
+<text x="72" y="923" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Best Practices: 100</text>
+<text x="72" y="949" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">SEO: 100</text>
+<text x="72" y="995" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Performance Issues</text>
+<text x="72" y="1034" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#111827">[7] Code or styling is delaying the first view of the page.</text>
+<text x="72" y="1080" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="1118" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Load speed</text>
+<text x="72" y="1144" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Mobile experience</text>
+<text x="72" y="1170" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">First impression</text>
+<text x="72" y="1196" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Bounce rate</text>
+<text x="72" y="1222" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Conversion</text>
+<text x="72" y="1248" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Speed test score</text>
+<text x="72" y="1274" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Page usability</text>
+<text x="72" y="1300" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Perceived site quality</text>
+<text x="72" y="1346" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="1384" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Prioritise the main above-the-fold content.</text>
+<text x="72" y="1410" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Optimise the main loading media.</text>
+<text x="72" y="1436" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Reduce code and styling that blocks the first view.</text>
+<text x="72" y="1462" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Delay non-essential scripts until after the page is usable.</text>
+<text x="72" y="1488" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Compress and convert large media assets.</text>
+<text x="72" y="1514" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Improve loading order so the main content renders first.</text>
+<text x="72" y="1570" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Style &amp; Site Experience</text>
+<text x="72" y="1625" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Issues</text>
+<text x="72" y="1663" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No major issue was found in this section from the external checks.</text>
+<text x="72" y="1709" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="1747" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific effect selected from the external checks.</text>
+<text x="72" y="1793" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="1831" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific fix selected from the external checks.</text>
+<text x="72" y="1887" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Animation &amp; Interactions</text>
+<text x="72" y="1942" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Issues</text>
+<text x="72" y="1980" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No major issue was found in this section from the external checks.</text>
+<text x="72" y="2026" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="2064" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific effect selected from the external checks.</text>
+<text x="72" y="2110" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="2148" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific fix selected from the external checks.</text>
+<text x="72" y="2204" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Code &amp; Third-Party Scripts</text>
+<text x="72" y="2259" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Issues</text>
+<text x="72" y="2298" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#111827">[2] Too much code is running before page load.</text>
+<text x="72" y="2325" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#111827">[11] Code or styling is blocking the first view of the page.</text>
+<text x="72" y="2371" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="2409" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Load speed</text>
+<text x="72" y="2435" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Speed test score</text>
+<text x="72" y="2461" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">User interaction delay</text>
+<text x="72" y="2487" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Tracking reliability</text>
+<text x="72" y="2513" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">First view</text>
+<text x="72" y="2539" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Mobile performance</text>
+<text x="72" y="2585" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="2623" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Audit all code loaded on the page.</text>
+<text x="72" y="2649" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Remove unused scripts and duplicate libraries.</text>
+<text x="72" y="2675" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Defer non-critical code.</text>
+<text x="72" y="2701" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Move non-essential scripts behind page load.</text>
+<text x="72" y="2727" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Load third-party scripts after the main content has rendered.</text>
+<text x="72" y="2753" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Reduce the number of scripts needed for the first view.</text>
+<text x="72" y="2809" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Asset &amp; Media Performance</text>
+<text x="72" y="2864" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Issues</text>
+<text x="72" y="2903" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#111827">[1] Large images are increasing page weight.</text>
+<text x="72" y="2930" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#111827">[11] Images are larger than they need to be.</text>
+<text x="72" y="2957" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500" fill="#111827">[12] Media is not compressed enough.</text>
+<text x="72" y="3003" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="3041" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Total page size</text>
+<text x="72" y="3067" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Main content loading speed</text>
+<text x="72" y="3093" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Mobile performance</text>
+<text x="72" y="3119" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">First impression</text>
+<text x="72" y="3145" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Bandwidth usage</text>
+<text x="72" y="3171" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Speed performance</text>
+<text x="72" y="3197" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">First view rendering</text>
+<text x="72" y="3243" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="3281" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Compress large media assets.</text>
+<text x="72" y="3307" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Prioritise the main image or visual.</text>
+<text x="72" y="3333" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Resize images to match their display size.</text>
+<text x="72" y="3359" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Rework heavy above-the-fold media if it delays page render.</text>
+<text x="72" y="3385" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Lazy-load below-the-fold media.</text>
+<text x="72" y="3411" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">Make sure critical visuals load before non-critical media.</text>
+<text x="72" y="3467" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">SEO &amp; Crawlability</text>
+<text x="72" y="3522" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Issues</text>
+<text x="72" y="3560" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No major issue was found in this section from the external checks.</text>
+<text x="72" y="3606" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="3644" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific effect selected from the external checks.</text>
+<text x="72" y="3690" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="3728" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific fix selected from the external checks.</text>
+<text x="72" y="3784" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Website Standards</text>
+<text x="72" y="3839" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Main Issues</text>
+<text x="72" y="3877" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No major issue was found in this section from the external checks.</text>
+<text x="72" y="3923" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Affects</text>
+<text x="72" y="3961" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific effect selected from the external checks.</text>
+<text x="72" y="4007" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">The Fixes</text>
+<text x="72" y="4045" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="400" fill="#374151">No specific fix selected from the external checks.</text>
+</svg>

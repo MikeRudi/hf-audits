@@ -1,0 +1,23 @@
+# Website Audit Lead List
+
+Codex should only audit Rides2U first. All other sites are queued for later.
+
+| Name | Email | Company | Website | Status |
+|---|---|---|---|---|
+| Rasmus Bendvold | rasmus@wheel.me | wheel.me | https://wheel.me | Queued |
+| Paris Plain | pplain@discoverultrium.com | Ultrium | https://ultriumtechnologies.com/ | Queued |
+| Shaun Zhang | zealotrobert@gmail.com | Think Technologies | https://www.think-technologies.com/ | Queued |
+| Hasan Bayhan | hbayhan@grangerconstruction.com | Granger Construction | https://www.grangerconstruction.com/ | Queued |
+| rahul. pataskar | pataska1@msu.edu | Zoris AI | https://zoris.ai/ | Queued |
+| Kimathi Boothe | kboothe@agileenergysolution.com | Agile Charge | https://www.agileenergysolution.com/ | Queued |
+| Salah Mokhayesh | salah@aldin.ai | Aldin AI | https://aldin.ai/ | Queued |
+| Neel Patel | npatel@naycel.com | Naycel | https://www.naycel.com/ | Queued |
+| Saamer Mansoor | hello@conferencecaptioning.com | Conference Captioning | https://conferencecaptioning.com/ | Queued |
+| chris raasch | chris.raasch@csisim.com | CSIsim | https://www.csisim.com/ | Queued |
+| Rick Lastella | ricklatella@dmri-inc.com | DMR International Inc. | https://dmri-inc.com/ | Queued |
+| Bretton Badenoch | bretton@meetmatch.ai | MeetMatch.ai | https://meetmatch.ai | Queued |
+| Jahsiah | jahrkidd@gmail.com | SimiPilot | https://simipilot.com/home | Queued |
+| Leah Lewis | leah@cocoon-technologies.com | Cocoon Technologies Inc. | https://laraapp.net/ | Queued |
+| andy | azplus76@gmail.com | ScoreNest | https://scorenest.com/ | Queued |
+| dANIEL Easterly | info@40acrersapp.com | 40 acres app | https://www.40acresapp.com/ | Queued |
+| Ryan Kreager | ryan@rides2u.com | Rides2U | https://www.rides2u.com/ | Start first |

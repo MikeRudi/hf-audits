@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+lighthouse-results
+figma-ready/svg
+figma-ready/*.svg
+*.log

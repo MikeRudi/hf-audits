@@ -1,0 +1,181 @@
+Ultrium Website Audit
+
+Website: https://ultriumtechnologies.com/
+Company: Ultrium
+Contact: Paris Plain
+Email: pplain@discoverultrium.com
+Audit Date: June 23, 2026
+Audited By: Codex
+
+Audit Summary
+
+Ultrium's website was reviewed from a public-facing perspective.
+
+Main opportunities:
+
+1. Improve speed and reduce what loads before the first view
+2. Clean up code and third-party scripts that are not needed right away
+3. Optimise images and other visual assets
+
+Messaging Direction
+
+Recommended messaging model: Product-Led
+
+Messaging Notes:
+
+Based on the public page text, Ultrium should make the product clear quickly: what it does, who it is for, and what the visitor should do next.
+
+Performance
+
+Speed Test Scores
+
+Performance: 77
+Accessibility: 100
+Best Practices: 100
+SEO: 100
+
+Main Performance Issues
+
+[3] The first part of the page takes too long to appear.
+[6] The page is loading too much before the first view is usable.
+[7] Code or styling is delaying the first view of the page.
+[8] The total page weight is too high.
+[9] The page feels slower than it should for the amount of content shown.
+
+The Affects
+
+Load speed
+Mobile experience
+First impression
+Bounce rate
+Conversion
+Speed test score
+Page usability
+Perceived site quality
+
+The Fixes
+
+Prioritise the main above-the-fold content.
+Optimise the main loading media.
+Reduce code and styling that blocks the first view.
+Delay non-essential scripts until after the page is usable.
+Compress and convert large media assets.
+Improve loading order so the main content renders first.
+
+Style & Site Experience
+
+Main Issues
+
+No major issue was found in this section from the external checks.
+
+The Affects
+
+No specific effect selected from the external checks.
+
+The Fixes
+
+No specific fix selected from the external checks.
+
+Animation & Interactions
+
+Main Issues
+
+[7] Visual media is costing too much performance.
+
+The Affects
+
+Page speed
+Mobile experience
+Speed performance
+User attention
+Conversion flow
+Interaction quality
+
+The Fixes
+
+Move non-essential animation code behind page load.
+Prioritise content loading before decorative animation.
+Reduce movement that distracts from the main message.
+Make sure interactions support the user journey.
+Review visual effects for performance cost.
+
+Code & Third-Party Scripts
+
+Main Issues
+
+[2] Too much code is running before page load.
+[11] Code or styling is blocking the first view of the page.
+
+The Affects
+
+Load speed
+Speed test score
+User interaction delay
+Tracking reliability
+First view
+Mobile performance
+
+The Fixes
+
+Audit all code loaded on the page.
+Remove unused scripts and duplicate libraries.
+Defer non-critical code.
+Move non-essential scripts behind page load.
+Load third-party scripts after the main content has rendered.
+Reduce the number of scripts needed for the first view.
+
+Asset & Media Performance
+
+Main Issues
+
+[1] Large images are increasing page weight.
+[11] Images are larger than they need to be.
+[12] Media is not compressed enough.
+[13] Too many visual assets are loading on the homepage.
+
+The Affects
+
+Total page size
+Main content loading speed
+Mobile performance
+First impression
+Bandwidth usage
+Speed performance
+First view rendering
+
+The Fixes
+
+Compress large media assets.
+Prioritise the main image or visual.
+Resize images to match their display size.
+Rework heavy above-the-fold media if it delays page render.
+Lazy-load below-the-fold media.
+Make sure critical visuals load before non-critical media.
+
+SEO & Crawlability
+
+Main Issues
+
+No major issue was found in this section from the external checks.
+
+The Affects
+
+No specific effect selected from the external checks.
+
+The Fixes
+
+No specific fix selected from the external checks.
+
+Website Standards
+
+Main Issues
+
+No major issue was found in this section from the external checks.
+
+The Affects
+
+No specific effect selected from the external checks.
+
+The Fixes
+
+No specific fix selected from the external checks.

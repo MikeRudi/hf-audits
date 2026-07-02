@@ -1,0 +1,448 @@
+HOW TO USE THIS AUDIT TEMPLATE
+
+This template is built as a selectable audit system.
+
+For each section:
+1. Review the site externally using Lighthouse/PageSpeed, DevTools, page source, sitemap, search results, and the live website.
+2. Under the main issue list, keep only the bracketed issues that apply to the site.
+3. Under “The Affects”, keep only the effects that match the selected issue IDs.
+4. Under “The Fixes”, keep only the fixes that match the selected issue IDs.
+5. Remove anything that is not relevant so the final audit stays short, clear, and specific.
+
+The numbers in brackets show which issue each effect or fix relates to.
+
+In the finished audit, keep selected issues in bracket form:
+
+[2] The main visible content takes too long to load.
+
+Do not turn selected issues into a normal numbered list, because skipped issue numbers look broken to the reader.
+
+Use plain-language performance notes in the finished audit. Avoid raw technical measurements, platform names, hosting names, or file-size units unless the user asks for technical detail.
+
+Important:
+Anything inside square brackets must be replaced with real audit content.
+
+Example:
+[COMPANY NAME] becomes Rides2U
+[WEBSITE URL] becomes https://www.rides2u.com/
+[Score] becomes the actual Speed test score
+[Main loading issue / note] becomes the real issue found during the audit
+
+Do not leave square bracket placeholders in the final client audit. Bracketed issue IDs such as [2] are allowed.
+
+---
+
+[COMPANY NAME] Website Audit
+
+Website: [WEBSITE URL]
+Company: [COMPANY NAME]
+Contact: [CONTACT NAME]
+Email: [CONTACT EMAIL]
+Audit Date: [DATE]
+Audited By: [YOUR NAME / STUDIO NAME]
+
+---
+
+Audit Summary
+
+[COMPANY NAME]’s website was reviewed from a public-facing perspective.
+
+This audit focuses on what can be checked externally, including performance, site experience, animation quality, SEO, website standards, speed test results, public-facing code behaviour, third-party scripts, media performance, crawlability, and visible page quality.
+
+Main opportunities:
+
+1. Improve page speed and speed test performance
+2. Improve the overall site look, feel, polish, and visual quality
+3. Improve animations, movement, interactions, and scroll experience
+4. Clean up heavy code, third-party scripts, and page loading order
+5. Optimise large images, videos, fonts, and other media assets
+6. Improve SEO foundations, sitemap quality, crawlability, and public page quality
+7. Clean up broken links, console errors, accessibility basics, and unfinished public-facing details
+
+---
+
+Messaging Direction
+
+Recommended messaging model: [Problem-Led / Product-Led / Platform-Led]
+
+Select one:
+
+Problem-Led
+Best when the company solves a clear pain point and the visitor needs to understand the problem before they understand the solution.
+
+Product-Led
+Best when the company has one clear product and the website needs to explain what it does, why it is better, and why people should choose it.
+
+Platform-Led
+Best when the company has multiple products, services, or features that should be positioned as one complete solution.
+
+Messaging Notes:
+
+[Short note on why this direction fits the company.]
+
+---
+
+Performance
+
+Speed Test Scores
+
+Performance: [Score]
+Accessibility: [Score]
+Best Practices: [Score]
+SEO: [Score]
+
+Main Performance Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] Performance score is below the recommended target.
+[2] The main visible content takes too long to load.
+[3] The first part of the page takes too long to appear.
+[4] The browser is being blocked by too much code before the page becomes usable.
+[5] The page shifts or jumps while loading.
+[6] The page is loading too much before the first view is usable.
+[7] Code or styling is delaying the first view of the page.
+[8] The total page weight is too high.
+[9] The page feels slower than it should for the amount of content shown.
+[10] Mobile performance is weaker than desktop performance.
+
+The Affects
+
+Load speed [1, 2, 3, 6, 7, 8, 9]
+Mobile experience [1, 2, 3, 4, 8, 9, 10]
+First impression [2, 3, 5, 6, 9]
+User trust [1, 5, 9, 10]
+Bounce rate [2, 3, 6, 8, 9, 10]
+Conversion [1, 2, 3, 4, 6, 9, 10]
+Google Core Web Vitals [2, 4, 5]
+SEO quality signals [1, 2, 4, 5]
+Speed test score [1, 2, 3, 4, 5, 7, 8]
+Interaction speed [4, 6, 7]
+Page usability [3, 4, 5, 6, 10]
+Perceived site quality [1, 5, 9, 10]
+
+The Fixes
+
+Prioritise the main above-the-fold content [2, 3, 6]
+Optimise the main loading element [2]
+Reduce code and styling that blocks the first view [3, 7]
+Delay non-essential scripts until after the page is usable [4, 6, 7]
+Compress and convert large images [2, 8]
+Reduce total page weight [1, 6, 8, 9]
+Improve loading order so the main content renders first [2, 3, 6, 7]
+Review mobile performance separately from desktop performance [10]
+Clean up assets and scripts that are slowing the first view [2, 3, 6, 8, 9]
+
+---
+
+Style & Site Experience
+
+Main Style / UX Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] The first screen is not clear enough.
+[2] The site does not explain the company quickly enough.
+[3] The visual hierarchy is weak.
+[4] The page feels too dense.
+[5] The page feels too thin.
+[6] The page feels too generic.
+[7] The page feels too technical for a first-time visitor.
+[8] The site has too many competing sections.
+[9] The CTA path is not clear enough.
+[10] The design feels dated or underdeveloped.
+[11] The design does not create enough trust.
+[12] The site does not use enough proof, metrics, logos, testimonials, or use cases.
+[13] The spacing and page rhythm could be improved.
+[14] The mobile layout feels weaker than the desktop layout.
+[15] The navigation or footer structure is not helping the user enough.
+
+The Affects
+
+Clarity [1, 2, 3, 4, 7, 8]
+Trust [6, 10, 11, 12]
+First impression [1, 3, 6, 10, 11, 13]
+User flow [8, 9, 15]
+Conversion [9, 11, 12]
+Perceived quality [3, 10, 11, 13, 14]
+Brand confidence [6, 10, 11, 12]
+Professional finish [10, 13, 14, 15]
+Readability [3, 4, 7, 13, 14]
+Mobile experience [13, 14]
+Sales-readiness [9, 11, 12]
+Visitor attention [3, 4, 8]
+CTA engagement [9]
+
+The Fixes
+
+Make the first screen clearer and more focused [1, 2]
+Strengthen the main CTA path [9]
+Improve visual hierarchy [3, 4, 13]
+Improve spacing and page rhythm [4, 13, 14]
+Reduce sections that feel repetitive or distracting [4, 8]
+Make the site feel more focused and easier to scan [3, 4, 7, 8]
+Improve the overall visual polish and modern feel [10, 11, 13]
+Add stronger proof where trust needs to be built [11, 12]
+Improve mobile spacing and layout where needed [13, 14]
+Make navigation and footer links clearer [15]
+Create a cleaner flow from problem to solution to proof to action [2, 8, 9, 12]
+
+---
+
+Animation & Interactions
+
+Main Animation / Interaction Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] Animations feel heavy or delayed.
+[2] Scroll animations are affecting performance.
+[3] Animations are creating layout shifts or page jumps.
+[4] Animations are weaker or slower on mobile.
+[5] The site is doing too much visually before the main content is usable.
+[6] Interactions feel jumpy, laggy, or inconsistent.
+[7] Animations look good visually but are costing too much performance.
+[8] Animation timing, easing, or movement could feel more polished.
+[9] Movement does not always support the content or user journey.
+[10] The site could use more intentional interaction detail to feel more premium.
+
+The Affects
+
+Page speed [1, 2, 5, 7]
+Scroll smoothness [1, 2, 4, 6, 8]
+Mobile experience [1, 4, 5, 7]
+Speed performance [2, 5, 7]
+First impression [1, 3, 6, 8, 10]
+Interaction quality [1, 2, 4, 6, 8, 10]
+Layout stability [3]
+Perceived polish [6, 8, 9, 10]
+User attention [2, 5, 6, 9]
+Conversion flow [3, 6, 9, 10]
+
+The Fixes
+
+Move non-essential animation code behind page load [2, 5, 7]
+Simplify heavy effects on mobile [1, 4, 7]
+Prevent animations from causing layout shifts [3]
+Make animations feel smoother and more intentional [1, 6, 8, 10]
+Improve animation timing, easing, and pacing [6, 8, 10]
+Reduce movement that distracts from the main message [5, 9]
+Make sure interactions support the user journey [9, 10]
+Prioritise content loading before decorative animation [5]
+Review scroll-triggered animations for performance cost [2, 7]
+Improve the overall feel of movement, hover states, transitions, and scroll interactions [6, 8, 10]
+
+---
+
+Code & Third-Party Scripts
+
+Main Code / Script Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] Heavy JavaScript is slowing the page down.
+[2] Too much code is running before page load.
+[3] Unused scripts are being loaded.
+[4] Duplicate libraries are being loaded.
+[5] Old or unused code appears to still be loading.
+[6] Tracking snippets are loading too early or too globally.
+[7] Third-party scripts are impacting load performance.
+[8] Console errors are visible.
+[9] Failed requests are visible.
+[10] Failed looping requests are visible.
+[11] Scripts are blocking the first view of the page.
+[12] Scripts are affecting interaction speed.
+[13] Important content may rely too heavily on JavaScript rendering.
+[14] Third-party tools may not all be needed.
+
+The Affects
+
+Load speed [1, 2, 3, 4, 7, 11]
+Speed test score [1, 2, 3, 7, 11, 12]
+User interaction delay [1, 2, 7, 12]
+Console health [8, 9, 10]
+Tracking reliability [6, 9, 10, 14]
+SEO crawlability [11, 13]
+Page stability [8, 9, 10, 12]
+Mobile performance [1, 2, 7, 12]
+First view [2, 11]
+Technical trust [8, 9, 10]
+Conversion reliability [8, 9, 12, 13]
+
+The Fixes
+
+Audit all JavaScript loaded on the page [1, 2, 3, 4, 5, 7, 14]
+Remove unused scripts and duplicate libraries [3, 4, 5]
+Split global scripts into page-specific scripts where possible [2, 3, 5, 6]
+Defer non-critical JavaScript [1, 2, 7, 11, 12]
+Move non-essential scripts behind page load [2, 6, 7, 11]
+Fix console errors and failed requests [8, 9]
+Fix broken or looping third-party requests [9, 10]
+Load third-party scripts after the main content has rendered [6, 7, 11]
+Use async or defer where possible [1, 2, 7, 11]
+Remove duplicate or unnecessary tracking tools [6, 14]
+Make sure important content is visible in rendered HTML [13]
+Reduce the number of scripts needed for the first view [1, 2, 3, 7, 11]
+
+---
+
+Asset & Media Performance
+
+Main Asset / Media Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] Large images are increasing page weight.
+[2] Large videos are increasing page weight.
+[3] Heavy SVGs are affecting performance.
+[4] Unused images or icons are loading.
+[5] Images are not served in WebP or AVIF.
+[6] The main image or visual is loading too late.
+[7] Fonts are loading too late.
+[8] The same asset is loading multiple times.
+[9] Below-the-fold media is loading too early.
+[10] Background media is delaying the first view.
+[11] Images are larger than they need to be.
+[12] Media is not compressed enough.
+[13] Too many visual assets are loading on the homepage.
+[14] The page relies on heavy above-the-fold media.
+
+The Affects
+
+Total page size [1, 2, 3, 4, 8, 11, 12, 13]
+Main content loading speed [1, 2, 6, 10, 12, 14]
+Mobile performance [1, 2, 3, 7, 9, 10, 12, 13, 14]
+First impression [6, 7, 10, 14]
+Bandwidth usage [1, 2, 4, 8, 9, 11, 12, 13]
+Speed performance [1, 2, 3, 5, 6, 7, 10, 12, 14]
+First view rendering [6, 7, 10, 14]
+SEO quality signals [5, 6, 7, 12]
+User experience on slower connections [1, 2, 9, 11, 12, 13, 14]
+
+The Fixes
+
+Compress large images and videos [1, 2, 12]
+Convert JPG/PNG assets to WebP or AVIF where possible [5]
+Prioritise the main image or visual [6]
+Lazy-load below-the-fold media [9, 13]
+Remove unused assets [4]
+Preload key fonts [7]
+Avoid loading the same asset multiple times [8]
+Resize images to match their display size [11]
+Rework heavy above-the-fold media if it delays page render [10, 14]
+Reduce unnecessary visual assets on the first view [13, 14]
+Optimise background images and videos [10, 14]
+Make sure critical visuals load before non-critical media [6, 9, 10, 14]
+
+---
+
+SEO & Crawlability
+
+Main SEO / Crawlability Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] Meta titles are missing, weak, or too generic.
+[2] Meta descriptions are missing, weak, or duplicated.
+[3] Heading structure is unclear.
+[4] The page has multiple H1s.
+[5] The page is missing a clear H1.
+[6] H2s and H3s are not structured properly.
+[7] Important content is injected late by JavaScript.
+[8] Important links are not crawlable.
+[9] Internal linking is weak.
+[10] Important pages are not linked clearly.
+[11] Sitemap includes unnecessary pages.
+[12] Important pages are missing from the sitemap.
+[13] Old, redirected, duplicate, or staging URLs appear to be discoverable.
+[14] Pages appear indexed with weak snippets.
+[15] Placeholder content is visible in search snippets.
+[16] Thin or low-value pages may be indexable.
+[17] Canonical tags should be reviewed.
+[18] Search engines may not be seeing the most important content clearly.
+
+The Affects
+
+Google discovery [8, 9, 10, 11, 12, 18]
+Indexing [7, 8, 11, 12, 13, 16, 17, 18]
+Search snippets [1, 2, 14, 15]
+Crawl efficiency [8, 9, 10, 11, 12, 13, 16, 17]
+Content quality signals [1, 2, 3, 6, 14, 15, 16]
+Organic performance [1, 2, 7, 8, 9, 10, 18]
+Page relevance [1, 2, 3, 5, 6, 18]
+Keyword focus [1, 2, 3, 5, 6]
+Site structure [3, 6, 9, 10, 11, 12]
+Technical SEO [7, 8, 11, 12, 13, 17, 18]
+User trust from search results [1, 2, 14, 15]
+Long-term search visibility [1, 2, 8, 9, 10, 12, 16, 18]
+
+The Fixes
+
+Clean up page titles and meta descriptions [1, 2, 14]
+Use one clear H1 per page [4, 5]
+Structure H2s and H3s properly [3, 6]
+Make sure important content exists in rendered HTML [7, 18]
+Improve internal linking to key pages [9, 10]
+Make important links crawlable [8, 10]
+Remove low-value, old, duplicate, redirected, or staging URLs from the sitemap [11, 13, 16]
+Ensure important pages are included in the sitemap [12]
+Check indexed pages for placeholder or unfinished content [14, 15, 16]
+Improve weak search snippets [1, 2, 14, 15]
+Review canonical tags [17]
+Submit and monitor the sitemap in Google Search Console where access is available [11, 12, 13]
+Strengthen page focus around the most valuable search intent [1, 2, 3, 18]
+Make sure product/service content is visible to search engines [7, 18]
+
+---
+
+Website Standards
+
+Main Standard Issues
+(Select the issues that apply to this site and remove what is not relevant.)
+
+[1] Broken links are visible.
+[2] Broken images are visible.
+[3] Console errors are visible.
+[4] Mobile spacing needs improvement.
+[5] Buttons do not have clear labels.
+[6] Forms have missing or unclear labels.
+[7] Meaningful images are missing alt text.
+[8] Colour contrast is too low.
+[9] Spacing is inconsistent.
+[10] CTAs are unclear.
+[11] Placeholder content is visible.
+[12] Old or unfinished public pages are visible.
+[13] Navigation structure is unclear.
+[14] Footer structure is weak.
+[15] The site has inconsistent page quality.
+[16] The site has unfinished public-facing details.
+[17] Some pages feel less polished than the rest of the site.
+[18] Accessibility basics need improvement.
+[19] Public templates need cleanup.
+
+The Affects
+
+Trust [1, 2, 3, 10, 11, 12, 15, 16, 17]
+Accessibility [5, 6, 7, 8, 18]
+Usability [1, 4, 5, 6, 10, 13, 14]
+Professional finish [2, 4, 9, 11, 12, 15, 16, 17, 19]
+Conversion [5, 6, 10, 13]
+Search quality [7, 11, 12, 15, 19]
+Mobile experience [4, 8, 9]
+Brand perception [3, 9, 11, 12, 15, 16, 17]
+Visitor confidence [1, 2, 3, 10, 11, 12, 16]
+Form completion [5, 6, 10]
+Navigation clarity [13, 14]
+Public-facing quality [1, 2, 3, 11, 12, 15, 16, 17, 19]
+Long-term maintainability [3, 12, 15, 16, 19]
+
+The Fixes
+
+Fix broken links and missing assets [1, 2]
+Clean up visible placeholder content [11, 12, 16, 19]
+Improve mobile layout issues [4, 9]
+Add alt text to meaningful images [7, 18]
+Check colour contrast on key text [8, 18]
+Make buttons and links clearer [5, 10, 13]
+Ensure forms are properly labelled [6, 18]
+Clean up unfinished public pages [12, 16, 19]
+Improve navigation and footer structure [13, 14]
+Remove or improve low-quality public templates [15, 17, 19]
+Review public pages for consistency [15, 17]
+Clean up console errors where visible [3]
+Improve accessibility basics [5, 6, 7, 8, 18]
+Make the site feel more complete and professionally finished [9, 11, 12, 15, 16, 17]
