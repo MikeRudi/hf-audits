@@ -32,10 +32,13 @@ npm run build:app-data
 
 When deployed with Vercel and Neon, audits, template-library edits, and manual score edits are saved through the API routes in `../api`.
 
-Set this Vercel environment variable before deploying live editing:
+Set one of these Vercel environment variables before deploying live editing:
 
 ```text
-DATABASE_URL=your_neon_connection_string
+DATABASE_URL=your_neon_or_vercel_postgres_connection_string
+POSTGRES_URL=your_vercel_postgres_connection_string
 ```
 
-If `DATABASE_URL` is not available, the app still works from the bundled audit JSON and saves draft builder state in browser local storage.
+The API also accepts `POSTGRES_PRISMA_URL` and `POSTGRES_URL_NON_POOLING`.
+
+If no database connection string is available, the app still works from the bundled audit JSON and saves draft builder state in browser local storage.

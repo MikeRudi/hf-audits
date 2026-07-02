@@ -20,8 +20,8 @@ The app is designed to deploy on Vercel and store live data in Neon.
 - `GET /api/state` loads audits, the template library, and manual scores.
 - `PUT /api/state` saves library changes and manual score changes.
 - `POST /api/audits` saves new or edited audits.
-- Neon needs a `DATABASE_URL` environment variable in Vercel.
-- If `DATABASE_URL` is missing, the app falls back to the bundled `app/data/audits.json` and browser local storage.
+- Neon/Postgres needs a connection-string environment variable in Vercel. The API accepts `DATABASE_URL`, `POSTGRES_URL`, `POSTGRES_PRISMA_URL`, or `POSTGRES_URL_NON_POOLING`.
+- If no database connection string is available, the app falls back to the bundled `app/data/audits.json` and browser local storage.
 
 For local static testing:
 
