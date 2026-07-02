@@ -422,6 +422,36 @@ function applyEditMode() {
   }
 }
 
+function preparePrintPage() {
+  const existing = document.querySelector("#dynamicPrintSize");
+  if (existing) existing.remove();
+
+  const frame = els.framesView.querySelector(".audit-frame");
+  if (!frame) return;
+
+  const printScale = 0.5;
+  const pageWidthMm = 210;
+  const marginMm = 10;
+  const availableWidthMm = pageWidthMm - marginMm * 2;
+  const contentWidthPx = frame.scrollWidth || frame.getBoundingClientRect().width;
+  const contentHeightPx = frame.scrollHeight || frame.getBoundingClientRect().height;
+  const pxPerMm = contentWidthPx / availableWidthMm;
+  const contentHeightMm = (contentHeightPx * printScale) / pxPerMm;
+  const pageHeightMm = Math.ceil(contentHeightMm + marginMm * 2 + 12);
+
+  const style = document.createElement("style");
+  style.id = "dynamicPrintSize";
+  style.textContent = `
+    @media print {
+      @page {
+        size: ${pageWidthMm}mm ${pageHeightMm}mm;
+        margin: ${marginMm}mm;
+      }
+    }
+  `;
+  document.head.appendChild(style);
+}
+
 function updateAuditFromEditable(element) {
   if (!state.editMode) return;
   const audit = activeAudit();
@@ -1305,6 +1335,7 @@ els.exportPdfBtn.addEventListener("click", () => {
   state.editMode = false;
   applyEditMode();
   updateToolbar();
+  preparePrintPage();
   window.print();
 });
 els.exportBuilderBtn.addEventListener("click", saveBuilderAudit);
